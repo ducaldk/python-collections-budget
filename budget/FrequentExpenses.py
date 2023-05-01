@@ -24,5 +24,7 @@ ax.bar(categories, count)
 ax.set_title(r'# of Purchases by Category')
 
 print("Task 9")
+# This did not work due to...
+# UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
 plt.show()
 
